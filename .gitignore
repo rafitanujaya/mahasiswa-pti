@@ -1,0 +1,54 @@
+
+# Dependencies
+node_modules/
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+config/database.local.php
+
+# OS Files
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+
+# Temporary Files
+tmp/
+temp/
+.cache/
+*.tmp
+*.bak
+
+# PHP
+/vendor/
+.phpunit.cache/
+.phpunit.result.cache
+
+# Local Database & Backups
+*.sqlite
+*.sqlite3
+*.sql.gz
+*.sql.bak
+
+# Local Admin Seeder
+database/seed_admin.php
+
+# Keep compiled Tailwind CSS
+!assets/css/output.css
+
+# Keep database export for assignment
+!database/simawa.sql

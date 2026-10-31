@@ -1,0 +1,18 @@
+{
+  "name": "mahasiswa-pti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch",
+    "build": "tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
